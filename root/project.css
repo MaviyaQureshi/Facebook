@@ -184,3 +184,28 @@
 .facelog:active{
     background-color: rgb(35, 112, 212);
 }
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+    margin : 0px;
+    background-color: rgb(18, 18, 18);
+    margin-bottom: -8px;
+    margin-left : -8px;
+    margin-right : -8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight : 500;
+    font-size : 15px;
+    background-image: linear-gradient( rgb(0, 0, 0),rgb(176, 176, 176));
+}
+
+.help,
+.terms,
+.sup,
+.about{
+    text-decoration: none;
+    color: white;
+}
