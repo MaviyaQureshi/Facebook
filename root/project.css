@@ -1,3 +1,7 @@
+.parent{
+    background-image: url("https://cdn.wallpapersafari.com/70/55/7Zey6m.jpg");
+}
+
 .panel{
     display: flex;
     height : 70px;
@@ -38,6 +42,7 @@
     font-family: 'Roboto', sans-serif;
     font-size : 18px;
     font-weight : 500;
+    
     margin-top: 23px;
     transition: 0.2s;
     height: 0px;
@@ -63,14 +68,12 @@
 }
 
 .body{
-    background-image: url("https://cdn.wallpapersafari.com/70/55/7Zey6m.jpg");
     height: 860px;
     margin-right: -8px;
-    margin-left: -500px;
     display: flex;
     justify-content: center;
     padding-top: 170px;
-    padding-left: 1500px;
+    padding-left: 1000px;
 }
 
 .enter1{
