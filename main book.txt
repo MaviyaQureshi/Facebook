@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login to Facebook</title>
+        <link href="facebook.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body class="parent" background="Main.jpg">
+    
+        <div class="top-panel">  
+            <span class="logo">
+                <span class="style">f</span>
+            </span>
+
+            <button class="sign-up">Sign-Up</button>
+            <button class="Contact-us">Contact Us</button>
+            <button class="Learn-more">Learn more</button>
+
+        </div>
+
+
+        <div class="body">
+
+
+
+            <div class="enter1">
+                <p class="facelog">Log in to Facebook</p>
+                <div class="mehaha">
+                    <p class="user">   Username </p>
+                    <div class="name">
+
+                        <input type="text" placeholder="Enter username" class="username">
+
+                    </div>
+
+                    <p class="pass">    Password    </p>
+                    <div class="word">
+                        
+                        <input type="text" placeholder="Enter password" class="password">
+                        <a href="" target="_blank"> <p class="forgot">Forgot password?</p></a>
+                    
+                    </div>
+                </div>
+                <button class="login">Log in</button>
+            </div>
+        </div>
+
+        
+
+    </body>
+</html>
+
+
+
+
+.top-panel{
+    display: flex;
+    width: auto;
+    height: 75px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    align-items: center;
+    justify-content:right;
+    background-image: url("https://wallpapercave.com/wp/wp661789.png");
+}
+
+.logo{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    background-color: white;
+    border:none;
+    justify-content: end;
+    color: rgb(35, 112, 212);
+    font-weight: 300;
+    border-radius: 60px;
+    margin-right: 1070px;
+}
+.style{
+    padding-right : 11px;
+}
+
+
+.Contact-us,
+.Learn-more,
+.sign-up{
+    background-color: transparent;
+    border: none;
+    margin-right : 20px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight : 500;
+    transition: 0.1s;
+    animation-duration: 0.8s;
+    animation-direction: left;
+
+}
+
+.Learn-more{
+    padding-right: 25px;
+}
+
+.Contact-us{
+    padding-right: 10px;
+}
+
+.sign-up{
+    padding-right: 10px;
+}
+
+.Learn-more:hover,
+.Contact-us:hover,
+.sign-up:hover{
+    cursor: pointer;
+}
+
+.Learn-more:active,
+.Contact-us:active,
+.sign-up:active{
+    color: black;
+}
+
+.body{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 200px; 
+    margin-right: -8px;
+    margin-left: -500px;
+    height: 880px;
+    background-image: url("https://wallpaper.dog/large/971200.jpg");
+}
+
+.enter1{
+    height: 450px;
+    background-color: white;
+    width : 450px;
+    border-radius: 25px;
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+    margin-right: 35px;
+}
+@keyframes example {
+    0%   {background-color: transparent; right:600px; top:0px;}
+    50%  {background-color:white; right:0px; top:0px;}
+}
+
+.enter1:hover{
+    box-shadow: 4px 3px 5px rgb(132, 132, 132);
+}
+
+.facelog{
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 110px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: rgb(47, 124, 249);
+}
+
+.mehaha{
+    margin-top: 40px;
+    margin-left: 70px;
+
+}
+
+
+.user{
+    margin: 0px;
+    margin-bottom: 9px;
+}
+
+.pass{
+    margin-top: 30px;
+    margin-bottom: 9px;
+}
+
+.user,
+.pass{
+    font-family : Arial;
+    font-weight : 500;
+}
+
+.username,
+.password{
+    border-width: 1px;
+    padding-top: 14px;
+    padding-bottom : 13px;
+    padding-left: 16px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 12px;
+    transition: outline,border 0.1s;
+    transition: box-shadow 0.1s;
+}
+
+.forgot{
+    font-family: Arial;
+    font-weight:500;
+    font-size:14px;
+}
+
+.login{
+    margin-top: 15px;
+    margin-left:75px;
+    width: 315px;
+    height: 45px;
+    font-size : 20px;
+    border: none;
+    background-color: rgb(47, 124, 249);
+    border-radius : 10px;
+    color : white;
+    font-family: Arial;
+    font-weight : 700;
+    transition : background-color 0.2s;
+}
+
+.login:hover{
+    background-color: rgb(1, 98, 255);
+}
+
+.login:active{
+    color:rgb(223, 221, 221);
+    background-color: rgb(47, 124, 249);
+}
+
+.username:focus,
+.password:focus{
+    border:none;
+    outline:none;
+    box-shadow: 4px 3px 5px rgb(197, 197, 197);
+
+}
+
+.username:hover,
+.password:hover{
+    box-shadow: 4px 3px 5px rgb(197, 197, 197);
+    border:none;
+}
+
+
+

@@ -1,0 +1,17 @@
+.logo{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    background-color: rgb(35, 112, 212);
+    border:none;
+    justify-content: end;
+    color: white;
+    font-weight: 300;
+    border-radius: 60px;
+}
+
+.style{
+    padding-right : 11px;
+}
