@@ -96,7 +96,7 @@
 
 
 .mehaha{
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 65px;
     font-family: 'Roboto', sans-serif;
     font-weight : 500;
@@ -155,7 +155,7 @@
 
 
 .forgot{
-    margin-top: 8px;
+    margin-top: 15px;
     font-size: 14px;
 }
 
@@ -208,4 +208,23 @@
 .about{
     text-decoration: none;
     color: white;
+}
+
+
+@media(max-width: 768px) {
+    .footer{
+        visibility: hidden;
+    }
+}
+
+#alert{
+    font-size: 12px;
+    visibility: hidden;
+    color: red;
+}
+
+#show{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
 }

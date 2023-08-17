@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Log in to Facebook</title>
-        <link href="project.css" rel="stylesheet">
+        <link href="signup.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -22,12 +22,14 @@
                     <p class="login">Log in to Facebook</p>
                     <div class="frame">
                         <p class="user">Username</p>
-                        <input type="text" placeholder="Enter username" class="name">
+                        <input type="text" placeholder="Enter username" class="name" id="name" />
+                        <div id="alert">hi</div>
                         <p class="pass">Password</p>
-                        <input type="text" placeholder="Enter password" class="word">
+                        <input type="password" placeholder="Enter password" class="word" id="word" />
+                        <div id="show"><input type="checkbox" onclick="Password()">Show Password</div>
                         <a href="" target="_blank"><p class="forgot">Forgot password?</p></a>
                     </div>
-                    <button class="facelog">Log in</button>
+                    <button class="facelog" onclick="validate()">Log in</button>
                 </div>
             </div>
         </div>
@@ -39,5 +41,7 @@
             <a href="" class="sup" target="_blank"> <p class="port">Support</p> </a>
             <a href="https://about.facebook.com/" class="about" target="_blank"> <p class="About"> About </p> </a>
         </div>
+
+        <script src="main.js"></script>
     </body>
 </html>
